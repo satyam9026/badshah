@@ -108,12 +108,12 @@ src="https://www.facebook.com/tr?id=2021497871700311&ev=PageView&noscript=1"
 
 
     <script>
-        let remainingSeconds = 60;
+        let remainingSeconds = 15;
         function updateCountdown() {
             document.getElementById("countdown").innerHTML = `${remainingSeconds}`;
             remainingSeconds -= 1;
             if (remainingSeconds < 0) {
-                remainingSeconds = 60;
+                remainingSeconds = 15;
             }
         }
         updateCountdown();
